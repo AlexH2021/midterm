@@ -56,12 +56,12 @@ main {
     margin: 0 .4em;
 }
 
-article,
+main>p,
 section {
     background-color: #C9ADA7;
 }
 
-article,
+main>p,
 .about_us {
     margin-top: 2em;
     margin-bottom: 1em;
