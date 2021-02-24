@@ -1,7 +1,41 @@
+* {
+    margin: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F2E9E4;
 }
 
 h1 {
     font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+header,
+nav {
+    background-color: #9A8C98;
+}
+
+.link_to_misc {
+    list-style-type: none;
+    text-align: center;
+}
+
+.link_to_misc li a:link {
+    color: rgb(53, 8, 80);
+}
+
+.link_to_misc li a:visited {
+    color: silver;
+}
+
+.link_to_misc li {
+    display: inline;
+}
+
+.link_to_misc a {
+    display: inline-block;
+    padding: 1.5em;
 }
