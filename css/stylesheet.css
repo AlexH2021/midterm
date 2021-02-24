@@ -11,7 +11,7 @@ body {
 h1 {
     font-family: 'Indie Flower', cursive;
     text-align: center;
-    padding: .5em 0
+    padding: .5em 0 0;
 }
 
 h3 {
@@ -89,6 +89,7 @@ section h2:first-child {
 
 .lunch img {
     float: left;
+    padding-right: .5em;
 }
 
 .lunch p:nth-of-type(2) {
@@ -101,5 +102,5 @@ section h2:first-child {
 }
 
 .about_us p {
-    padding: 1em 0;
+    padding: .5em 0;
 }
