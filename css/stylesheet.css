@@ -11,6 +11,11 @@ body {
 h1 {
     font-family: 'Indie Flower', cursive;
     text-align: center;
+    padding: .5em 0
+}
+
+h3 {
+    padding: 1em 0;
 }
 
 header,
@@ -74,6 +79,10 @@ section h2:first-child {
     float: right;
 }
 
+.breakfast ul {
+    float: left;
+}
+
 .lunch {
     clear: both;
 }
@@ -82,6 +91,15 @@ section h2:first-child {
     float: left;
 }
 
-.lunch p:first-of-type(2) {
+.lunch p:nth-of-type(2) {
     clear: both;
+}
+
+.about_us img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about_us p {
+    padding: 1em 0;
 }
